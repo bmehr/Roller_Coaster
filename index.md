@@ -30,7 +30,7 @@
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
 
-<model-viewer loading="eager" id="reveal" camera-controls autoplay animation-name="Move" src="Models/Unity2Skfb.gltf" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="15_The_Fall_3December2019.usdz" alt="Roller Coaster_The Fall" auto-rotate="" auto-rotate-delay="0" ar-scale="auto" style="width: 95%; height: 500px" exposure="0.5">  <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
+<model-viewer id="reveal" loading="eager" camera-controls autoplay animation-name="Move" src="Models/Unity2Skfb.gltf" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="15_The_Fall_3December2019.usdz" alt="Roller Coaster_The Fall" auto-rotate="" auto-rotate-delay="0" ar-scale="auto" style="width: 95%; height: 500px" exposure="0.5">  <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
       👋 AR Click Here
   </button>
 </model-viewer>
